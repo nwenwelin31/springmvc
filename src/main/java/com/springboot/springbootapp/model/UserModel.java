@@ -18,6 +18,12 @@ public class UserModel {
 	public UserModel() {
 
 	}
+	
+	public UserModel(String username, String email) {
+		this.username = username;
+		this.email = email;
+	}
+
 	public int getId() {
 		return id;
 	}
